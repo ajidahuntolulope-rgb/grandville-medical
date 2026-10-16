@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#51382C"/>
+      <stop offset="1" stop-color="#181614"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="rgba(241,237,228,.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <rect width="1200" height="900" fill="url(#grid)"/>
+  
+  <g opacity="0.4">
+    <circle cx="880" cy="450" r="100" fill="none" stroke="#C47A58" stroke-width="1.5"/>
+    <circle cx="880" cy="450" r="150.0" fill="none" stroke="#C47A58" stroke-width="1" stroke-dasharray="3 6"/>
+    <rect x="852.0" y="365.0" width="56.00000000000001" height="170.0" fill="#A9573F" rx="2"/>
+    <rect x="795.0" y="422.0" width="170.0" height="56.00000000000001" fill="#A9573F" rx="2"/>
+  </g><circle cx="300" cy="450" r="260" fill="#A9573F" opacity=".14"/><path d="M120 680 Q600 560 1080 680" fill="none" stroke="#C47A58" stroke-width="1.5" opacity=".55"/><path d="M120 720 Q600 600 1080 720" fill="none" stroke="#F1EDE4" stroke-width="1" opacity=".25"/>
+</svg>

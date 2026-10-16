@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1100" viewBox="0 0 880 1100">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#181614"/>
+      <stop offset="1" stop-color="#2A2119"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="rgba(241,237,228,.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="880" height="1100" fill="url(#g)"/>
+  <rect width="880" height="1100" fill="url(#grid)"/>
+  
+  <g opacity="0.5">
+    <circle cx="620" cy="420" r="120" fill="none" stroke="#C47A58" stroke-width="1.5"/>
+    <circle cx="620" cy="420" r="180.0" fill="none" stroke="#C47A58" stroke-width="1" stroke-dasharray="3 6"/>
+    <rect x="586.4" y="318.0" width="67.2" height="204.0" fill="#A9573F" rx="2"/>
+    <rect x="518.0" y="386.4" width="204.0" height="67.2" fill="#A9573F" rx="2"/>
+  </g><circle cx="240" cy="780" r="180" fill="#BD8B42" opacity=".18"/><path d="M420 420 A200 200 0 0 1 820 420" fill="none" stroke="#F1EDE4" stroke-width="1.2" opacity=".6"/><path d="M360 420 A260 260 0 0 1 880 420" fill="none" stroke="#F1EDE4" stroke-width="1.2" opacity=".6"/><rect x="180" y="940" width="520" height="1" fill="#F1EDE4" opacity=".35"/><text x="180" y="980" font-family="monospace" font-size="26" letter-spacing="6" fill="#F1EDE4" opacity=".7">EST. 2013 — LAGOS</text>
+</svg>

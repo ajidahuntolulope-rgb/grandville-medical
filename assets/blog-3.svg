@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#181614"/>
+      <stop offset="1" stop-color="#2A2119"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="rgba(241,237,228,.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <rect width="1280" height="720" fill="url(#grid)"/>
+  
+  <g opacity="0.35">
+    <circle cx="960" cy="360" r="80" fill="none" stroke="#C47A58" stroke-width="1.5"/>
+    <circle cx="960" cy="360" r="120.0" fill="none" stroke="#C47A58" stroke-width="1" stroke-dasharray="3 6"/>
+    <rect x="937.6" y="292.0" width="44.800000000000004" height="136.0" fill="#A9573F" rx="2"/>
+    <rect x="892.0" y="337.6" width="136.0" height="44.800000000000004" fill="#A9573F" rx="2"/>
+  </g><circle cx="320" cy="520" r="160" fill="#A9573F" opacity=".16"/><path d="M140 200 H1140" stroke="#F1EDE4" stroke-width="1" opacity=".2"/><path d="M810 360 A150 150 0 0 1 1110 360" fill="none" stroke="#F1EDE4" stroke-width="1.2" opacity=".6"/>
+</svg>
